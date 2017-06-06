@@ -1,0 +1,19 @@
+{
+  "name": "lws-http2",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "http2",
+  "repository": "https://github.com/lwsjs/http2.git",
+  "license": "MIT",
+  "keywords": [
+    "lws",
+    "http2"
+  ],
+  "scripts": {
+    "test": "test-runner test.js"
+  },
+  "dependencies": {
+    "http2": "^3.3.6",
+    "lws": "^1.0.0-pre.4"
+  }
+}
