@@ -1,12 +1,11 @@
-module.exports = LwsBase => class Http2Server extends LwsBase {
-  createServer (options) {
+module.exports = ServerFactory => class Http2ServerFactory extends ServerFactory {
+  create (options) {
     let key = options.key
     let cert = options.cert
 
     if (!(key && cert)) {
-      const path = require('path')
-      key = path.resolve(__dirname, 'ssl', '127.0.0.1.key')
-      cert = path.resolve(__dirname, 'ssl', '127.0.0.1.crt')
+      key = this.getDefaultKey()
+      cert = this.getDefaultCert()
     }
 
     if (key && cert) {
@@ -18,10 +17,9 @@ module.exports = LwsBase => class Http2Server extends LwsBase {
 
       const http2 = require('http2')
       const server = http2.createServer(serverOptions)
-      server.isHttps = true
       return server
     } else {
-      throw new Error('https server requires a key and cert')
+      throw new Error('http2 server requires a key and cert')
     }
 
     server.on('request', (req, res) => {
