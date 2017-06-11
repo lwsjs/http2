@@ -1,7 +1,5 @@
-const Server = require('lws/lib/command/serve/server')
-
-class Http2Server extends Server {
-  static getServer (options) {
+module.exports = LwsBase => class Http2Server extends LwsBase {
+  createServer (options) {
     let key = options.key
     let cert = options.cert
 
@@ -79,5 +77,3 @@ class Http2Server extends Server {
     return server
   }
 }
-
-module.exports = Http2Server
