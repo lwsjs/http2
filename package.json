@@ -13,7 +13,7 @@
     "test": "test-runner test.js"
   },
   "dependencies": {
-    "http2": "^3.3.6"
+    "http2-75lb": "^3.3.7"
   },
   "devDependencies": {
     "lws": "^1.0.0-pre.8",

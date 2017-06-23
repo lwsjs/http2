@@ -1,7 +1,7 @@
 module.exports = ServerFactory => class Http2ServerFactory extends ServerFactory {
   create (options) {
     const fs = require('fs')
-    const http2 = require('http2')
+    const http2 = require('http2-75lb')
     const serverOptions = {}
     if (options.pfx) {
       serverOptions.pfx = fs.readFileSync(options.pfx)
