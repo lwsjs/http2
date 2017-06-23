@@ -1,7 +1,7 @@
 {
   "name": "lws-http2",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "http2",
   "repository": "https://github.com/lwsjs/http2.git",
   "license": "MIT",
