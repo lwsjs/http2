@@ -4,4 +4,15 @@
 [![Dependency Status](https://david-dm.org/lwsjs/http2.svg)](https://david-dm.org/lwsjs/http2)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
-# http2
+# lws-http2
+
+A http2 server extension for [lws](https://github.com/lwsjs/lws). Read more about how to use it [here](https://github.com/lwsjs/local-web-server/wiki/How-to-launch-a-HTTP2-development-web-server).
+
+
+```
+$ npm install lws-http2 --save-dev
+```
+
+* * *
+
+&copy; 2017 Lloyd Brookes <75pound@gmail.com>.

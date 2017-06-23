@@ -14,5 +14,9 @@
   },
   "dependencies": {
     "http2": "^3.3.6"
+  },
+  "devDependencies": {
+    "lws": "^1.0.0-pre.8",
+    "test-runner": "^0.4.0"
   }
 }
