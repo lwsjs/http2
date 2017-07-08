@@ -5,7 +5,7 @@ const Lws = require('lws')
 const runner = new TestRunner()
 
 runner.test('basic', function () {
-  const lws = new Lws({ server: '.' })
-  lws.launch()
-  lws.server.close()
+  const lws = new Lws()
+  const server = lws.listen({ server: '.' })
+  server.close()
 })
