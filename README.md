@@ -6,7 +6,7 @@
 
 # lws-http2
 
-A http2 server extension for [lws](https://github.com/lwsjs/lws). Read more about how to use it [here](https://github.com/lwsjs/local-web-server/wiki/How-to-launch-a-HTTP2-development-web-server).
+A http2 server extension for [lws](https://github.com/lwsjs/lws) wrapping [node-http2](https://github.com/molnarg/node-http2). Read more about how to use it [here](https://github.com/lwsjs/local-web-server/wiki/How-to-launch-a-HTTP2-development-web-server).
 
 
 ```
