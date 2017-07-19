@@ -10,13 +10,13 @@
     "http2"
   ],
   "scripts": {
-    "test": "test-runner test.js"
+    "test": "test-runner test/*.js"
   },
   "dependencies": {
     "http2-75lb": "^3.3.7"
   },
   "devDependencies": {
-    "lws": "^1.0.0-pre4.0",
+    "lws": "^1.1.2",
     "test-runner": "^0.4.0"
   }
 }

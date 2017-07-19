@@ -66,10 +66,10 @@ command-line-args@^4.0.6:
     typical "^2.6.1"
 
 command-line-commands@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/command-line-commands/-/command-line-commands-2.0.0.tgz#1abda11633e8d37bcb1a39f73b8d939a2d85ef39"
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/command-line-commands/-/command-line-commands-2.0.1.tgz#c58aa13dc78c06038ed67077e57ad09a6f858f46"
   dependencies:
-    array-back "^1.0.4"
+    array-back "^2.0.0"
 
 command-line-usage@^4.0.0:
   version "4.0.0"
@@ -304,9 +304,9 @@ lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
-lws@^1.0.0-pre4.0:
-  version "1.0.0-pre4.0"
-  resolved "https://registry.yarnpkg.com/lws/-/lws-1.0.0-pre4.0.tgz#8a23abb7e49a109e3c1b19cbf26ab6ee64c498c8"
+lws@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/lws/-/lws-1.1.2.tgz#84dcf8bedc3c55b91f5570033908b1f1a605f93d"
   dependencies:
     ansi-escape-sequences "^3.0.0"
     array-back "^2.0.0"
@@ -319,8 +319,9 @@ lws@^1.0.0-pre4.0:
     lodash.assignwith "^4.2.0"
     lodash.camelcase "^4.3.0"
     reduce-flatten "^1.0.1"
+    semver "^5.3.0"
     typical "^2.6.1"
-    usage-stats "^0.9.3"
+    usage-stats "^0.9.4"
     walk-back "^3.0.0"
     ws "^3.0.0"
 
@@ -384,7 +385,7 @@ reduce-flatten@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/reduce-flatten/-/reduce-flatten-1.0.1.tgz#258c78efd153ddf93cb561237f61184f3696e327"
 
-req-then@^0.6.2:
+req-then@^0.6.4:
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/req-then/-/req-then-0.6.4.tgz#9f9c04626afd311ae01d727846a0a1075c0e1965"
   dependencies:
@@ -397,6 +398,10 @@ req-then@^0.6.2:
 safe-buffer@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
+
+semver@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
 setprototypeof@1.0.3:
   version "1.0.3"
@@ -455,14 +460,14 @@ ultron@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.0.tgz#b07a2e6a541a815fc6a34ccd4533baec307ca864"
 
-usage-stats@^0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/usage-stats/-/usage-stats-0.9.3.tgz#6c906491becb9b4e8659f2e0d27f337fcf8f087e"
+usage-stats@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/usage-stats/-/usage-stats-0.9.4.tgz#ff06ba51d824faa1982f48a055dea8495a249077"
   dependencies:
     array-back "^2.0.0"
     home-path "^1.0.5"
     mkdirp2 "^1.0.3"
-    req-then "^0.6.2"
+    req-then "^0.6.4"
     typical "^2.6.1"
     uuid "^3.1.0"
 
